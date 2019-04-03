@@ -1,0 +1,1 @@
+for palavra in $(cat lista.txt);do host $palavra.site.com;done |grep "has address"
